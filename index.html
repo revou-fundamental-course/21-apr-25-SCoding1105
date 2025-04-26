@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kalkulator Suhu - SofianTech</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- header section -->
+    <header class="header-section">
+        <div class="header-image"></div>
+        <h3>Website Kalkulator Suhu - SofianTech</h3>
+    </header>
+
+    <!-- main section -->
+    <main class="main-section">
+
+        <!-- home section -->
+        <section>
+            <p>Hai <b><span id="welcomeUser"></span></b>, Selamat datang di Website Kalkulator Suhu</p>
+            <div class="banner-img"></div>
+            <div class="banner-img"></div>
+            <div class="banner-img"></div>
+        </section>
+        <!-- kalkulator suhu section -->
+        <section>
+            <header>
+                <p>Website Kalkulator suhu merupakan Website alat konversi suhu celcius ke farenheit maupun sebaliknya</p>
+            </header>
+
+            <div class="form-container">
+                <form action="">
+
+                    <!-- konversi suhu -->
+                    <div class="form-group">
+                        <label for="konversi-input">Celcius (&deg;C):</label>
+                        <textarea id="konversi-input"></textarea>
+                    </div>
+
+                    <!-- form action -->
+                    <div class="form-group">
+                        <button>Konversi</button>
+                        <button>Reset</button>
+                        <button>Reverse</button>
+                    </div>
+
+                    <!-- hasil konversi -->
+                    <div class="form-group">
+                        <label for="hasil-input">Farenheit (&deg;F):</label>
+                        <textarea id="hasil-input" readonly></textarea>
+                    </div>
+
+                    <!-- penjelesan -->
+                    <div class="form-group">
+                        <label for="calculate-detail">Cara Kalkulasi:</label>
+                        <textarea id="calculate-detail" readonly></textarea>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer-section">
+        <p>&copy; 2025 Sofian. All Right Reserved</p>
+    </footer>
+
+    <!-- bagian script! -->
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@ const welcomeUser = document.getElementById("welcomeUser");
     }
 
     else {
-        welcomeUser.innerHTML = userName.;
+        welcomeUser.innerHTML = userName;
     }
 
 
